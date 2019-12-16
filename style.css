@@ -3,20 +3,57 @@
     color: white;
     
 } */
-div :hover{
+/* div :hover{
 background-image: url(archiveh.png);
+
+/* max-width: 100%; */
+position: absolute;
+left: 3%;
+ align-content: center; 
+width: 100%;
+height: 90%;
+
+} */
+
+#logo{
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+left: 3%;
+ align-content: center; 
+width: 100%;
+height: 90%;
+
+}
+
+#logo.hover{
+    z-index: -1;
+    opacity: 0;
+    position: absolute;
+left: 3%;
+ align-content: center; 
+width: 100%;
+height: 90%;
 
 }
 
 
+#logo2{
+    z-index: 0;
+    opacity: 1;
+    position: absolute;
+left: 3%;
+ align-content: center; 
+width: 100%;
+height: 90%;
+
+
+}
 
 body {
     background-color:black;
 }
-h1{
-    margin: 0;
-    padding: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
 
 }
 
@@ -32,7 +69,7 @@ p {
 
 div {
     height: auto;
-    /* max-width: 100%; */
+     max-width: 100%; 
     position: absolute;
     left: 3%;
     align-content: center;
